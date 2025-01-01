@@ -1,1 +1,13 @@
 # lec-python
+- Basic Exam
+    - `Python3 エンジニア認定基礎試験`に向けた解説
+    - [docs/basic_exam.md](docs/basic_exam.md)
+- Data Analysis Exam
+    - `Python3 エンジニア認定データ分析試験`に向けた解説
+    - [docs/data_analysis_exam.md](docs/data_analysis_exam.md)
+- Practical Exam
+    - `Python3 エンジニア認定実践試験`に向けた解説
+    - [docs/practical_exam.md](docs/practical_exam.md)
+- Data Analysis Practical Exam
+    - `Python3 エンジニア認定データ分析実践試験`に向けた解説
+    - [docs/data_analysis_practical_exam.md](docs/data_analysis_practical_exam.md)
