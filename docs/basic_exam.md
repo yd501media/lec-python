@@ -80,7 +80,7 @@
 - **pandas**
     - 使用例
 
-## Input and Output
+## Input and Output Operations
 - **文字列**
     - フォーマット
 - **標準出力**
@@ -132,9 +132,38 @@
 - **抽象基底クラス**
     - 子クラスで実装を強制するクラス。
 
+以下は追加で書きたい内容。
+- コンストラクタ (`__init__` メソッド)
+    - インスタンス生成時に呼ばれる初期化メソッド。
+- デストラクタ (`__del__` メソッド)
+    - インスタンス削除時に呼ばれる終了処理用メソッド。
+- 特殊メソッド (`__str__`, `__repr__` など)
+    - 特定の動作をカスタマイズするための特別なメソッド。
+- ポリモーフィズム
+    - 異なるクラスで同名メソッドを異なる動作に対応させる機能。
+- カプセル化
+    - データを隠蔽し外部からの直接操作を制限する仕組み。
+- アクセス修飾子 (public, protected, private)
+    - 属性やメソッドのアクセス範囲を制御する仕組み。
+- 静的メソッド (`@staticmethod`) とクラスメソッド (`@classmethod`)
+    - インスタンスに依存しないメソッドとクラス全体で共有するメソッド。
+- ミックスイン
+    - 他のクラスに機能を追加する補助的なクラス。
+- 動的属性追加
+    - 実行時にインスタンスへ属性を動的に追加する仕組み。
+- 継承の詳細 (ダイヤモンド継承と `super()`)
+    - 多重継承時の呼び出し順問題を解決する仕組み。
+- 抽象基底クラス
+    - 子クラスで特定メソッドの実装を強制する基盤クラス。
+
 ## Standard Library
 - **標準ライブラリ**
-    - os, glob, sys, re, math, urllib, datetime, unittest, logging, itertools など
+    - os, glob, sys, re, math, urllib, datetime, zlib, tiemit, doctest, unittest
+    - reprlib, pprint, textwrap, locale, string, struct, threading, logging
+    - weakref, gc
+    - array, collection, bisect
+    - decimal
+    - itertools, functools
 
 ## Virtual Environments
 - **仮想環境の作成**
