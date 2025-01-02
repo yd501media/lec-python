@@ -58,10 +58,13 @@
 ## Loops and Iteration
 - **for文**
     - シーケンスの各要素に対して繰り返し処理を実行
+    - range()関数
 - **while文**
     - 条件による繰り返し
-- **break, continue**
+- **break, continue, else, pass**
     - ループ制御
+    - else節
+    - pass文
 - **enumerate, zip**
     - 繰り返しでの便利な組み込み関数
     - zipのstrictオプション
