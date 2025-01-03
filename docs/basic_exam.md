@@ -81,15 +81,15 @@
 
 ## Modules
 - **モジュールのインポート方法**
-    - `import`, `from ... import`
-- **その他の基本モジュール**
-    - `math`, `random`, `os`
+    - `import ...`
+    - `from ... import ...`
+    - `import ... as ...`
 - **外部モジュールのインストール**
     - `pip install`
 - **numpy**
-    - 使用例
+    - 簡単な使用例
 - **pandas**
-    - 使用例
+    - 簡単な使用例
 
 ## Input and Output Operations
 - **文字列**
