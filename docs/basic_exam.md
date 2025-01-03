@@ -93,7 +93,9 @@
 
 ## Input and Output Operations
 - **文字列**
-    - フォーマット
+    - f文字列
+    - str.format()
+    - %演算子
 - **標準出力**
     - `print()` を使用したデータの表示
 - **標準入力**
