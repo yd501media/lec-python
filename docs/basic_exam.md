@@ -174,13 +174,44 @@
   子クラスで特定メソッドの実装を強制する基盤クラス。
 
 ## Standard Library
-- **標準ライブラリ**
-    - os, glob, sys, re, math, urllib, datetime, zlib, tiemit, doctest, unittest
-    - reprlib, pprint, textwrap, locale, string, struct, threading, logging
-    - weakref, gc
-    - array, collection, bisect
-    - decimal
-    - itertools, functools
+- **os, shutil**  
+  ファイル操作や環境変数、ディレクトリ管理を提供。
+- **glob**  
+  ワイルドカードを使用したファイル検索をサポート。
+- **sys**  
+  インタプリタやコマンドライン引数の操作を提供。
+- **re**  
+  正規表現を用いた文字列検索や置換をサポート。
+- **math, random, statistics**  
+  数学関数、乱数生成、統計計算を提供。
+- **urllib**  
+  URL操作やHTTPリクエストをサポートするモジュール。
+- **datetime**  
+  日付と時刻の操作や計算を簡単に行える機能を提供。
+- **zlib**  
+  データ圧縮と解凍をサポートするライブラリ。
+- **timeit**  
+  コードの実行時間を測定して性能を評価するツール。
+- **doctest, unittest**  
+  ドキュメント内のテストと単体テストを実行する機能。
+- **reprlib, pprint, textwrap, locale**  
+  オブジェクト整形、テキスト折り返し、ロケール管理を提供。
+- **string**  
+  文字列操作や定数（アルファベットや数字）を提供。
+- **struct**  
+  バイナリデータを扱うための構造化操作を提供。
+- **threading**  
+  マルチスレッドプログラミングを簡単に実現するモジュール。
+- **logging**  
+  アプリケーションのログ記録と管理を行う機能。
+- **weakref, gc**  
+  弱参照の管理とガベージコレクションの操作を提供。
+- **array, collection, bisect, heapq**  
+  配列や特殊なデータ構造の操作をサポート。
+- **decimal**  
+  高精度の小数演算をサポートするライブラリ。
+- **itertools, functools**  
+  イテレータ操作や高階関数を効率的にサポート。
 
 ## Virtual Environments
 - **仮想環境の作成**
