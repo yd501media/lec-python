@@ -214,12 +214,8 @@
   イテレータ操作や高階関数を効率的にサポート。
 
 ## Virtual Environments
-- **仮想環境の作成**
-    - `python -m venv`
-- **仮想環境の有効化/無効化**
-    - OSごとの操作方法
-- **依存関係の管理**
-    - `requirements.txt` の使用
+- **仮想環境の作成, 有効化/無効化**  
+  プロジェクトごとに依存関係を分離して管理する機能。
 
 ## Package Management with pip
 - **pipの概要**
